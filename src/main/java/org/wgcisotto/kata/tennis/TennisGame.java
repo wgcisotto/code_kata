@@ -2,14 +2,12 @@ package org.wgcisotto.kata.tennis;
 
 import org.wgcisotto.kata.tennis.models.Player;
 
-import java.util.List;
 import java.util.Map;
-import java.util.Random;
 
 public class TennisGame {
 
-    private Player player1;
-    private Player player2;
+    private final Player player1;
+    private final Player player2;
 
     private Map<Integer, String> score = Map.ofEntries(
             Map.entry(0, "love"),
